@@ -18,7 +18,7 @@ BreachWise is a small security awareness web app with two tools: a password chec
 
 ## Screenshot
 
-![BreachWise screenshot](docs/screenshot.png)
+![BreachWise screenshot](screenshots/demo.png)
 
 ## Setup
 
