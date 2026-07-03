@@ -24,7 +24,7 @@ BreachWise is a small security awareness web app with two tools: a password chec
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/breachwise.git
+   git clone https://github.com/ejoseph24/breachwise.git
    cd breachwise
    ```
 
@@ -63,3 +63,6 @@ BreachWise is a small security awareness web app with two tools: a password chec
 | VirusTotal API v3 | URL and IP reputation data | [docs.virustotal.com](https://docs.virustotal.com/reference/overview) |
 | AbuseIPDB API | IP abuse confidence scoring | [docs.abuseipdb.com](https://docs.abuseipdb.com/) |
 | Google Gemini API | AI-generated, plain-English analysis | [ai.google.dev/gemini-api/docs](https://ai.google.dev/gemini-api/docs) |
+
+## Acknowledgements
+Claude Code was used as a coding assistant during development.
