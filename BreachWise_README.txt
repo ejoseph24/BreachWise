@@ -16,13 +16,14 @@ A security awareness web app that checks whether your password has appeared in k
 **Step 1 — Open a terminal and navigate to the project folder:**
 
 ```
-cd C:\Users\elija\Desktop\BreachWise
+cd C:\Users\<your-username>\Desktop\BreachWise
 ```
 
 **Step 2 — Start the server:**
 
 ```
 python -m uvicorn main:app --reload --port 8080
+
 ```
 
 Leave this terminal open the entire time you're using the app. If you close it, the app stops working.
@@ -55,11 +56,11 @@ Go back to the terminal and press `Ctrl + C`.
 
 ---
 
-## API keys needed (coming soon)
+## API keys needed
 
 - **HaveIBeenPwned** — no key required, uses k-anonymity API
 - **VirusTotal** — free key at https://www.virustotal.com/gui/join-us
 - **AbuseIPDB** — free key at https://www.abuseipdb.com/register
-- **Anthropic** — key at https://console.anthropic.com
+- **Anthropic or Google AI Studio** — key at https://console.anthropic.com OR https://aistudio.google.com/api-keys
 
 Add keys to a `.env` file in this folder when ready (never commit this file to GitHub).
